@@ -15,8 +15,9 @@ const routes = [
       { path: '/rights', component: () => import('@/components/power/Rights') },
       { path: '/roles', component: () => import('@/components/power/Roles') },
       { path: '/categories', component: () => import('@/components/goods/Cate') },
-      { path: '/params', component: () => import('@/components/goods/Params') }
-
+      { path: '/params', component: () => import('@/components/goods/Params') },
+      { path: '/goods', component: () => import('@/components/goods/List') },
+      { path: '/goods/add', component: () => import('@/components/goods/Add') }
     ] }
 ]
 
